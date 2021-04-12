@@ -95,7 +95,7 @@ void BeFullSet::Draw(BRect updateRect)
 	BEntry entry(path, true);
 	if (entry.Exists())
 	{
-		BBitmap bb(BRect(0.0,0.0,31.0,31.0),B_CMAP8);
+		BBitmap bb(BRect(0.0,0.0,31.0,31.0),B_RGBA32);
 		BNodeInfo bni;
 		BNode bn(path);
 		err=bn.InitCheck();

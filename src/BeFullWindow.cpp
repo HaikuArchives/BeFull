@@ -30,7 +30,7 @@ BeFullWindow::BeFullWindow() : BWindow(BRect(0,0,0,0),"BeFull",B_NO_BORDER_WINDO
 			currentDir[4000] = "",
 			currentEntry[4000] = "",
 			setFilePath[] = "/boot/home/config/settings/BeFull settings",
-			beMenuPath[] = "/boot/home/config/be/";
+			beMenuPath[] = "/boot/system/data/deskbar/";
 	FILE *inp = fopen(setFilePath, "r");
 	int totalEntries = 0,
 		doneEntries = 0,
